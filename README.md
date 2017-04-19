@@ -1,2 +1,0 @@
-# phonegap
-html app
