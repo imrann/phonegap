@@ -56,8 +56,9 @@ function startgame()
 
 function score()
 		{
-		    globalscore = globalscore + 1;
-			document.getElementById("score").innerHTML = globalscore;
+		    
+			document.getElementById("score").innerHTML = globalscore + 1;
+			globalscore = globalscore + 1;
         }	
 
 function reset()
@@ -76,7 +77,7 @@ function stoptime()
 function timeover()
 		{
 		   globaltime = globaltime + 1;
-		   document.getElementById("reset").innerHTML = 20 - globaltime;
+		   document.getElementById("reset").innerHTML = 25 - globaltime;
 		   if(globaltime == 25)
 		   {
 		     stoptime();
@@ -97,28 +98,28 @@ function timeover()
 
 
 <div id="align">
-<button id="a1"disabled onclick="score()">1</button>
-<button id="a2"disabled onclick="score()">1</button>
-<button id="a3"disabled onclick="score()"></button>
-<button id="a4"disabled onclick="score()"></button>
+<button id="a1"disabled onclick="score()">.</button>
+<button id="a2"disabled onclick="score()">.</button>
+<button id="a3"disabled onclick="score()">.</button>
+<button id="a4"disabled onclick="score()">.</button>
 </div>
 <div id="align">
-<button id="a5"disabled onclick="score()"></button>
-<button id="a6"disabled onclick="score()"></button>
-<button id="a7"disabled onclick="score()"></button>
-<button id="a8"disabled onclick="score()"></button>
+<button id="a5"disabled onclick="score()">.</button>
+<button id="a6"disabled onclick="score()">.</button>
+<button id="a7"disabled onclick="score()">.</button>
+<button id="a8"disabled onclick="score()">.</button>
 </div>
 <div id="align">
-<button id="a9"disabled onclick="score()"></button>
-<button id="a10"disabled onclick="score()"></button>
-<button id="a11"disabled onclick="score()"></button>
-<button id="a12"disabled onclick="score()"></button>
+<button id="a9"disabled onclick="score()">.</button>
+<button id="a10"disabled onclick="score()">.</button>
+<button id="a11"disabled onclick="score()">.</button>
+<button id="a12"disabled onclick="score()">.</button>
 </div>
 <div id="align">
-<button id="a13"disabled onclick="score()"></button>
-<button id="a14"disabled onclick="score()"></button>
-<button id="a15"disabled onclick="score()"></button>
-<button id="a16"disabled onclick="score()"></button>
+<button id="a13"disabled onclick="score()">.</button>
+<button id="a14"disabled onclick="score()">.</button>
+<button id="a15"disabled onclick="score()">.</button>
+<button id="a16"disabled onclick="score()">.</button>
 </div>
 <div id="align">
 <h3>YOUR SCORE</h3>
